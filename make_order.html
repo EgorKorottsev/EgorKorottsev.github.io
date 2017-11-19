@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Подари Трек</title>
+    <!-- Bootstrap CSS -->
+	<!--что такое integrity и anonymous-->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/make_order.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+  </head>
+  <body>
+      <header id="main">		
+	  <div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="menu navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">главная <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">преимущества</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">звезды о нас</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">примеры</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">заказать</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0 to_ask">
+				  <button class="button_question" type="submit">Задать вопрос</button>
+				</form>
+			</div>
+		</nav>
+	</div>
+	</header>
+	<div class="marginTopDiv">
+		<div class="make_order">
+			<h2>Шаг второй. Анкета</h2>
+			<div class="container">
+					<form class="leadForm">
+						<div class="containerLeadForm">
+						<b class="best_song">Чтобы мы написали максимально красивую песню для вас, 
+						обязательно заполните анкету!</b>
+  
+						<div class="form-group row">
+							<label for="info_answer_name" class="col-sm-5 col-form-label">Ваше имя:</label>
+							<div class="col-sm-7">
+								<input type="text" class="form-control" id="info_answer_name" placeholder="Ceргей">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="info_answer_lover" class="col-sm-5 col-form-label">Имя вашего любимого человека:</label>
+							<div class="col-sm-7">
+								<input type="text" class="form-control" id="info_answer_lover">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="info_answer_lover_group" class="col-sm-5 col-form-label">Кто для вас любимый человек:</label>
+							<div class="col-sm-7">
+								<input type="text" class="form-control" id="info_answer_lover_group" placeholder="мама/папа">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="info_answer_mobile_phone" class="col-sm-5 col-form-label">Ваш мобильный телефон:</label>
+							<div class="col-sm-7">
+								<input type="tel" class="form-control" id="info_answer_mobile_phone">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="info_answer_email" class="col-sm-5 col-form-label">Почта, на которую мы отправим вам песню:</label>
+							<div class="col-sm-7">
+								<input type="email" class="form-control" id="info_answer_email">
+							</div>
+						</div>
+						<div class="form-group div_wishes row">
+							<label for="info_answer_wishes" class="col-sm-5 col-form-label">Почта, на которую мы отправим вам песню:</label>
+							<div class="col-sm-7">
+								<textarea id="info_answer_wishes"></textarea>
+							</div>
+						</div>
+						<b class="caution">Убедитесь, что все поля заполнены верно!</b>
+						</div>
+					</form>
+					<input class="to_make_order" type="submit" value="потверждаю!">
+					<p class="to_make_order_text">Вводя свой email, вы соглашаетесь <br>
+						получать письма от нашего проекта
+					</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 footer_logo">
+					<img src="img/logo_mmg.png" alt="">
+				</div>
+				<div class="col-lg-6 copyright">
+					© ЧПОДАРИ ТРЕК - торговая марка компании Magic Media Group. Полное или частичное копирование материалов данного сайта в коммерческих целях запрещено, согласование использования материалов производится с их авторами. Все права защищены и принадлежат компании Magic Media Group. 2011 - 2014
+					ПОДДЕРЖКА: support@podari-track.ru (495) 532-82-90
+				</div>
+				<div class="col-lg-4 our_politics">
+					<ul>
+						<li><a href="#">добавить в избранное<a></li>
+						<li><a href="#">партнерская программа</a></li>
+						<li><a href="#">политика конфеденциальности</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
